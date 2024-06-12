@@ -13,6 +13,10 @@ mysql.createConnection({
     database: "crud"
 })
 
+app.get("/", (req, res) => {
+    res.json("Hellow from Backend")
+})
+
 app.listen(8081, () => {
     console.log("listening");
 })
