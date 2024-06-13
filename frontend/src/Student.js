@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react'
 import axios from 'axios'
-import './Student.css'
 
-const Student = () => {
+function Student() {
 
     useEffect(() => {
         axios.get('http://localhost:1000/')
@@ -11,10 +10,10 @@ const Student = () => {
     }, [])
 
   return (
-    <div className="student-container">
-      <div className="student-content">
-        <button className="add-btn">Add +</button>
-        <table className="table">
+    <div className='d-felx vh-100 bg-primary justify-content-center align-items-center'>
+      <div className='w-50 gb-white rounded'>
+        <button className='btn btn-success'>Add +</button>
+        <table className='table'>
             <thrad>
                 <tr>
                     <th>Name</th>
