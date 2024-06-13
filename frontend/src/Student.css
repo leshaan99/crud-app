@@ -1,11 +1,11 @@
-.student container {
+.student-container {
     justify-content: center;
     display: flex 100vh;
     background-color: #007bff;
     align-items: center;
 }
 
-.student content {
+.student-content {
     border-radius: 0.25rem
 }
 
