@@ -15,12 +15,12 @@ const db = mysql.createConnection({
 
 app.get("/", (req, res) => {
     const sql = "SELECT * FROM student";
-    db.query(sql, (err, data) => {
+    db.query(sql, (err,data) => {
         if(err) return res.json("Error");
         return res.json(data);
     })
 })
 
-app.listen(1000, () => {
+app.listen(1080, () => {
     console.log("listening");
 })
