@@ -1,2 +1,2 @@
 # CRUD-App
-I create a full-stack CRUD app using React, Node, MySQL, and Xampp. In this i using React to create the user interface, Node to handle the backend database operations, MySQL to store the data, and Xampp to serve the app. I'll also be using React Router to create dynamic routes, and Bootstrap to create a user interface.
+Developed a full-stack CRUD application utilizing React, Node.js, MySQL, and XAMPP. The application features a user interface built with React, with React Router enabling dynamic routing. Node.js manages backend database operations, while MySQL is used for data storage. XAMPP is employed to serve the application, and Bootstrap is integrated to enhance the user interface design.
